@@ -1,5 +1,14 @@
 # EmbeddedC
 
+## Makefile contents
+
+- `make` - To create hex and elf file in build folder.
+
+  **Note**: The build file is automatically created once you have run the make function.
+
+- `make clean` - To clean the build folder from the directory.
+
+
 ## Simulation
 
 - Both the switches are OFF, so the LED and Heater is turned OFF.
@@ -28,11 +37,3 @@
 - Transmitting data to another device using UART is shown in the serial monitor.
 
   ![Simulation8](Simulation/Simulation8.JPG)
-
-## Makefile contents
-
-- `make` - To create hex and elf file in build folder.
-
-  **Note**: The build file is automatically created once you have run the make function.
-
-- `make clean` - To clean the build folder from the directory.
